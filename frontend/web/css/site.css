@@ -1,0 +1,126 @@
+html,
+body {
+    height: 100%;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    //padding: 0 0 60px;
+    width: 85%;
+}
+.wrap > .header{
+    background: #fca;
+    min-height: 50px;
+    width: 100%;
+    margin-top:  -20px;
+    padding-top: 0px
+}
+.wrap > .header > h1{
+    padding-top: 80px
+}
+.wrap > .container {
+    width: 100%;
+    padding: 0px 0px 0px;
+}
+
+.sidebar-a {
+    
+    padding: 10px 10px 10px;
+}
+
+.sidebar-b {
+    border-left: #c55 1px;
+}
+
+.footer {
+    min-height: 70px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+    width: 100%
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: /*"\e113"*/ "\e151";
+}
+
+a.desc:after {
+    content: /*"\e114"*/ "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view th {
+    white-space: nowrap;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+.box-product { width: 100%; overflow: auto; }
+.box-product > div {min-width: 130px; display: inline-block; vertical-align: middle; margin-right:10px; margin-bottom: 20px; background:#fff; text-align:center; padding-bottom:10px; border:1px solid #fff;}
+.box-product > div:hover{border:1px solid #e3e3e3; box-shadow:1px 1px 2px #d6d4d4;}
+.box-product  a:hover{color: #0000cc; text-decoration: none}
+.box-product .description{text-align: justify;font-size: 16px; margin-top: 10px; margin-bottom: 30px; width: 100%}
+.box-product .box-center{ border: #DDD solid 1px ; margin: 10px 0px 0px 0px; width: 100%}
+.box-product .name{font-size: 24px; margin-top: 15px ; text-align: left}
+.box-product .more{position: absolute;right: 40px;bottom: 15px;}
+//.image {position: inherit;}
+//.rate-view{position: inherit;  margin-top: -37px; z-index: 9999}
+#box-hide{position: fixed; bottom: 0px; right: 11%; background: #0063dc; width: 250px; border: #0063dc solid 1px; border-radius: 5px 5px 1px 1px; display: none}
+#box-hide {margin-top: 5px; min-height: 30px; font-size: 16px; color: #fff; border-bottom: #245580 solid 2px; text-align: center}
+#box-show{position: fixed; bottom: 0px; right: 11%; background: #FFF; width: 250px; border: #0063dc solid 1px; border-radius: 5px 5px 1px 1px}
+#box-show .title {margin: 5px; min-height: 30px; font-size: 16px; color: #ff0084; border-bottom: #245580 solid 2px; text-align: center}
